@@ -123,6 +123,10 @@ brisanje remote brancha
 ```
 git push <remote_name> --delete <branch_name>
 ```
+ako obrisem branch na remote ostane mi lokanlno, to poravnam:
+```
+git remote prune <remote_name>
+```
 
 ### reference:
 [Github Forking](https://gist.github.com/Chaser324/ce0505fbed06b947d962)
