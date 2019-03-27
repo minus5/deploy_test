@@ -3,11 +3,11 @@ require_relative "../download_strategy"
 class Atool < Formula
   desc ""
   homepage ""
-  url "https://github.com/minus5/tmp/releases/download/v0.1.5/tmp_0.1.5_Darwin_x86_64.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-  version "0.1.5"
-  sha256 "d67c825b6135efe1c43c3b2d716efcf3510c6c0f57d1ea04f5146fabfc0b6741"
+  url "https://github.com/minus5/tmp/releases/download/v0.1.6/btool_0.1.6_Darwin_x86_64.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
+  version "0.1.6"
+  sha256 "5f258630928682d0e7e2f218594f490a096de148766f93f9af77d6e7ef4b5bfb"
 
   def install
-    bin.install "tmp"
+    bin.install "btool"
   end
 end
